@@ -1,0 +1,66 @@
+@media screen and (max-width: 1440px){
+
+    main{
+        margin-top: 300px;
+    }
+
+    .container{
+        width: 30vw;
+        height: 54vh;
+        background-color: white;
+    }    
+
+    .el1 .img1{
+        width: 27vw;
+        margin-top: 23px;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+
+    .el2 a{
+        font-family: "Figtree";
+        font-size: 28px;
+        font-weight: 800;
+        text-decoration: none;
+        color: hsl(0, 0%, 7%);
+    }
+
+    .el2 p{
+        font-family: "Figtree";
+        font-size: 19px;
+        padding-right: 11px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    main{
+        margin-top: 100px;;
+    }
+
+    .container{
+        width: 80vw;
+        height: 73vh;
+        background-color: white;
+    }
+
+    .el1 .img1{
+        width: 70vw;
+        margin-top: 13px;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+
+    .el2 p{
+        font-family: "Figtree";
+        font-size: 18px;
+        padding-right: 11px;
+    }
+
+    .el2 a{
+        font-family: "Figtree";
+        font-size: 18px;
+        font-weight: 800;
+        text-decoration: none;
+        color: hsl(0, 0%, 7%);
+    }
+}

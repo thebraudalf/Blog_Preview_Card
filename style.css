@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(47, 88%, 63%);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.container{
+    width: 25vw;
+    height: 68vh;
+    background-color: white;
+    border-radius: 16px;
+    border: 1px solid black;
+    box-shadow: 6px 5px 0px 3px hsl(0, 0%, 7%);
+}
+
+.el1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.el1 .img1{
+    width: 22vw;
+    margin-top: 23px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.el1 .ele{
+    align-self: self-start;
+    margin-left: 23px;
+    
+}
+
+.ele span{
+    padding: 6px 14px;
+    border-radius: 5px;
+    font-family: "Figtree";
+    font-weight: 800;
+    background-color: hsl(47, 88%, 63%);
+}
+
+.ele p{
+    margin-top: 18px;
+   font-family: "Figtree";
+   font-weight: 600;
+}
+
+.el2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 23px;
+    gap: 20px;
+}
+
+.el2 a{
+    font-family: "Figtree";
+    font-size: 25px;
+    font-weight: 800;
+    text-decoration: none;
+    color: hsl(0, 0%, 7%);
+}
+
+.el2 p{
+    font-family: "Figtree";
+    opacity: 0.6;
+    font-size: 19px;
+    padding-right: 11px;
+}
+
+.el3{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 23px;
+    gap: 10px;
+}
+
+.el3 img{
+    object-fit: contain;
+}
+.el3  div{
+    font-family: "Figtree";
+    font-weight: 900;
+    padding: 8px 0;
+}
+
+a:hover{
+    color: hsl(47, 88%, 63%);;
+}
