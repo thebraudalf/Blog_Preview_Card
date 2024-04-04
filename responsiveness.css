@@ -1,12 +1,12 @@
 @media screen and (max-width: 1440px){
 
     main{
-        margin-top: 300px;
+        margin-top: 250px;
     }
 
     .container{
         width: 30vw;
-        height: 54vh;
+        height: 58vh;
         background-color: white;
     }    
 
